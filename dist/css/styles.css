@@ -163,6 +163,15 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
+.iaestoiarto{
+  color: white;
+}
+
+.iaestoiarto:hover{
+  color: white;
+}
+
 a:hover {
   color: #117964;
   text-decoration: underline;
@@ -2455,6 +2464,18 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-perfil {
+  color: white;
+  background-color: #1283B3;
+  border-color: #1F30CC;
+}
+
+.btn-perfil:hover {
+  color:white;
+  background-color: #1F30CC;
+  border-color: #1F30CC;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1abc9c;
@@ -3941,7 +3962,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: #fff;
 }
 
 .nav-fill .nav-item {
@@ -6067,7 +6088,45 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: rgba(69, 83, 153, .6)
+   !important;
+}
+
+/*
+.bg-primary-notorius {
+  background: rgba(218, 218, 218, 0.85)
+   !important;
+}
+
+.bg-perfil {
+  position: absolute;
+width: 434px;
+height: 807px;
+left: 51px;
+top: 108px;
+background: rgba(69, 83, 153, 0.6)
+   !important;
+}
+
+.bg-not{
+  position: relative;
+  width: 888px;
+  height: 344px;
+  left: 503px;
+  top: 108px;
+  
+  background: rgba(218, 218, 218, 0.85)
+   !important;
+}
+*/
+
+.fondo {
+  background-image: url(../assets/fondo3.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6077,7 +6136,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #1f30cc!important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9759,6 +9818,16 @@ a.text-primary:hover, a.text-primary:focus {
   color: #2c3e50 !important;
 }
 
+.notificaciones {
+position: relative;
+width: 880px;
+height: 32px;
+left: 511px;
+top: 108px;
+
+color: #000000;
+}
+
 a.text-secondary:hover, a.text-secondary:focus {
   color: #11181f !important;
 }
@@ -10090,12 +10159,14 @@ h3 {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  color: black;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  border-radius: 50%
 }
 
 @media (min-width: 992px) {
