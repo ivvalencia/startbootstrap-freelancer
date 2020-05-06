@@ -1733,8 +1733,8 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #212529;
-  background-color: rgba(0, 0, 0, 0.075);
+  color: white;
+  background-color: rgba(69, 83, 153, 0.8);
 }
 
 .table-primary,
@@ -6092,12 +6092,12 @@ a.close.disabled {
    !important;
 }
 
-/*
-.bg-primary-notorius {
+
+.bg-primary-notif {
   background: rgba(218, 218, 218, 0.85)
    !important;
 }
-
+/*
 .bg-perfil {
   position: absolute;
 width: 434px;
@@ -10158,9 +10158,31 @@ h3 {
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
-  line-height: 2.75rem;
+  line-height : 25px;
+  color: white;
+}
+
+.masthead .masthead-heading-black {
+  font-size: 3rem;
+  line-height : 25px;
   color: black;
 }
+
+.masthead .masthead-hoy {
+  font-size: 2rem;
+  line-height : 25px;
+  color: black;
+}
+
+.masthead .masthead-notif {
+  font-size: 2rem;
+  line-height : 25px;
+  color: black;
+  font-family: Arial Black;
+  font-style: normal;
+  color: #4D4D4D;
+}
+
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }

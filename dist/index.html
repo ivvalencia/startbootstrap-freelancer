@@ -32,11 +32,12 @@
         </nav>
         <!-- Masthead-->
     <div class ="fondo">
-        <header class="masthead bg-primary  text-white text-center">
-            <div class="containerd-flex align-items-center flex-column">
-            <!-- <div class="col-md-6 col-lg-4 mb-5"></div> -->
+        <header class="masthead bg-primary text-white text-center">
+            <!--<div class="containerd-flex align-items-center flex-column">-->
+            <div class = "row">
+                <div class="col-lg-12">
                 <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5 img-circle" src="assets/img/ivan.jpg" alt=""/><!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0 ">Iván Valencia Téllez</h1>
+                <h1 class="masthead-heading text-uppercase mb-0">Iván Valencia</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -46,73 +47,105 @@
                 <p class="masthead-subheading font-weight-light mb-0">Héroe - Organizador de peleas clandestinas de gallos - Azul hasta la muerte</p>
                 <div class="divider-custom divider-light"> </div>
                 <button type="button" class="btn btn-perfil"><a class="js-scroll-trigger iaestoiarto" href="#contact">Ver perfil</a></button>
-            </div>    
+                <div class="divider-custom divider-light"> </div>
+            </div> 
+<!--
+            <div class="col-lg-7 bg-primary-notif text-left">
+                <div class="divider-custom divider-light"> </div>
+                <h1 class="text-uppercase masthead-hoy mb-0 ">Notificaciones</h1>
+                <div class="divider-custom divider-light"> </div>
+                <p class="masthead-subheading font-weight-light masthead-notif mb-0">Urgente</p>
+                <div class="divider-custom divider-light"> </div>
+                <div class="divider-custom divider-light"> </div>
+                <h1 class="masthead-heading-black text-uppercase mb-0">Salvar el mundo</h1>
+                <div class="divider-custom divider-light"> </div>
+                <div class="divider-custom divider-light"> </div>
+                <p class="masthead-subheading font-weight-light masthead-notif mb-0 text-right">Hoy</p>
+
+            </div>
+            
+            </div>
+-->
         </header>
-        <!-- Portfolio Section-->
+        <!-- Portfolio Section -->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portafolio</h2>
+                <div class="divider-custom divider-light"> </div>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
                 <!-- Portfolio Grid Items-->
+                
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Nombre</th>
+                              <th scope="col">Fecha de modficiación</th>
+                              <th scope="col">Autor</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>startbootstrap-bare</td>
+                              <td>13/03/2020</td>
+                              <td>Iván Valencia</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Bootstrap</td>
+                              <td>03/03/2020</td>
+                              <td>Iván Valencia</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>startbootstrap-freelancer</td>
+                                <td>Hoy</td>
+                                <td>Iván Valencia</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                  </div>
+                  <div class="divider-custom divider-light"> </div>
+                  <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Recursos</h2>
+                  <div class="divider-custom divider-light"> </div>
                 <div class="row">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-6 col-lg-3 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/git.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-6 col-lg-3 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/figma.png" alt=""/>
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-6 col-lg-3 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/drive.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/port.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -212,9 +245,10 @@
         </footer>
         <!-- Copyright Section-->
         <section class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Your Website 2020</small></div>
+            <div class="container"><small>© 2020, Iván Valencia Téllez. Todos los derechos reservados.</small></div>
             <a style="background-color:black;color:white;
             text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@togna_bologna?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Tony Reid"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Tony Reid</span></a>
+            <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@awmleer?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from 卡晨"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">卡晨</span></a>
         </section>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
