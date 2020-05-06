@@ -167,13 +167,22 @@ a {
 .iaestoiarto{
   color: white;
 }
+.iaestoiartoTabla{
+  color: rgb(83, 83, 83);
+  
+}
+
+.iaestoiartoTabla:hover{
+  color: white;
+  text-decoration: underline;
+}
 
 .iaestoiarto:hover{
   color: white;
 }
 
 a:hover {
-  color: #117964;
+  color: white;
   text-decoration: underline;
 }
 
